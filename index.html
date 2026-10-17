@@ -9,13 +9,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2317614A'/%3E%3Cpath d='M11 8h10v16l-5-4-5 4z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='0.75' y='0.75' width='30.5' height='30.5' rx='7.5' fill='%23fff' stroke='%23D5DED9' stroke-width='1.5'/%3E%3Cpath d='M11 8h10v16l-5-4-5 4z' fill='%2317614A'/%3E%3C/svg%3E">
 </head>
 <body>
 <div class="wrap">
   <header class="top">
     <a class="brand" href="index.html">
-      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#17614A"/><path d="M11 8h10v16l-5-4-5 4z" fill="#fff"/></svg>
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="0.75" y="0.75" width="30.5" height="30.5" rx="7.5" fill="#fff" stroke="#D5DED9" stroke-width="1.5"/><path d="M11 8h10v16l-5-4-5 4z" fill="#17614A"/></svg>
       BDE
     </a>
     <nav class="nav" aria-label="Main">
@@ -34,7 +34,7 @@
           <a class="btn btn-solid" href="#pricing">See plans</a>
           <a class="btn btn-line" href="#how">How it works</a>
         </div>
-        <p class="req">For Windows 10 and 11, with Google Chrome.</p>
+        <p class="req">For Windows 10 and 11, with Chrome, Edge or Brave.</p>
       </div>
 
       <div class="scene" aria-hidden="true">
@@ -57,11 +57,11 @@
 <section id="features">
   <div class="wrap">
     <h2>What BDE does</h2>
-    <p class="intro">A small desktop app and a Chrome extension that work together in the background.</p>
+    <p class="intro">A small desktop app and a browser extension that work together in the background.</p>
     <div class="features">
       <div>
         <h3>Saves tabs you leave unread</h3>
-        <p>When Chrome sits in the background, your computer goes idle or locks, or you close a tab you never read, BDE keeps a copy of it under Inactive tabs.</p>
+        <p>When your browser sits in the background, your computer goes idle or locks, or you close a tab you never read, BDE keeps a copy of it under Inactive tabs.</p>
       </div>
       <div>
         <h3>Groups research into projects</h3>
@@ -94,7 +94,7 @@
 <section id="pricing">
   <div class="wrap">
     <h2>Pricing</h2>
-    <p class="intro">Monthly subscription. Cancel any time.</p>
+    <p class="intro">Monthly subscription. Cancel any time. Subscriptions open soon.</p>
     <div class="plans">
       <div class="plan">
         <h3>1 laptop</h3>
@@ -104,7 +104,7 @@
           <li>Automatic saving of unread tabs</li>
           <li>Projects and session summaries</li>
         </ul>
-        <a class="btn btn-solid" href="https://test.checkout.dodopayments.com/buy/pdt_0NpdW28CvvobQooBrMeeS?quantity=1">Subscribe for 1 laptop</a>
+        <span class="btn btn-line" aria-disabled="true">Available soon</span>
       </div>
       <div class="plan featured">
         <h3>2 laptops</h3>
@@ -114,7 +114,7 @@
           <li>Automatic saving of unread tabs</li>
           <li>Projects and session summaries</li>
         </ul>
-        <a class="btn btn-solid" href="https://test.checkout.dodopayments.com/buy/pdt_0NpdYItDweA7VTiHKv6nd?quantity=1">Subscribe for 2 laptops</a>
+        <span class="btn btn-line" aria-disabled="true">Available soon</span>
       </div>
     </div>
     <p class="note">Prices in US dollars. Applicable taxes, such as VAT or GST, are added at checkout depending on your country. Payments are processed by Dodo Payments, our merchant of record. Project grouping is subject to fair-use limits, described in our <a href="terms.html">Terms</a>.</p>
@@ -126,7 +126,11 @@
     <h2>Questions</h2>
     <details>
       <summary>Which browsers does BDE work with?</summary>
-      <p>Google Chrome on Windows 10 and 11. BDE links to one browser at a time; to move it to another browser, remove the extension from the first one and install it in the new one.</p>
+      <p>Chrome, Microsoft Edge and Brave on Windows 10 and 11. BDE links to one browser per laptop at a time; to switch, click Unlink in BDE's Settings (or remove the extension) and add it to the other browser. Firefox is planned for a later update.</p>
+    </details>
+    <details>
+      <summary>How do I install BDE?</summary>
+      <p>Install the BDE desktop app for Windows, add the BDE extension to Chrome, Edge or Brave from your browser's extension store, then open BDE, go to Settings → License, paste your license key and click Activate. Full steps will be on this site when subscriptions open.</p>
     </details>
     <details>
       <summary>Does BDE save my private browsing?</summary>
@@ -134,7 +138,7 @@
     </details>
     <details>
       <summary>What is sent off my laptop?</summary>
-      <p>To create projects, BDE sends the titles and web addresses of saved tabs, over an encrypted connection, to our server, which passes them to an AI service to group them and write a summary. They are not stored on our server. Your bookmarks themselves stay on your laptop. Details are in our <a href="privacy.html">Privacy Policy</a>.</p>
+      <p>To create projects, BDE sends the titles and web addresses of saved tabs, over an encrypted connection, to our server, which passes them to Google's Gemini AI service to group them and write a summary. They are not stored on our server. Your bookmarks themselves stay on your laptop. Details are in our <a href="privacy.html">Privacy Policy</a>.</p>
     </details>
     <details>
       <summary>How does the license work?</summary>
