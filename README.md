@@ -1,10 +1,10 @@
 # BDE website
 
-Static site for GitHub Pages: index.html (landing + pricing), terms.html, privacy.html, refund.html, style.css.
+Static site for GitHub Pages: index.html (landing + pricing), thanks.html (getting started, Dodo redirect target), terms.html, privacy.html, refund.html, style.css.
 
 ## Replace before publishing
-Search all files for `[[` and replace:
-- `Srikanth Ambidi` – your name or registered business name (as on your Dodo business)
-- `ambidisrikanth@gmail.com` – the email customers should write to
-- `14` – refund window for the first payment (e.g. 14)
-- `[[CHECKOUT_LINK_1_LAPTOP]]`, `[[CHECKOUT_LINK_2_LAPTOPS]]` – Dodo checkout links for each product
+Nothing left: both store links, checkout links, installer link, name, email and refund window are filled in.
+
+Checkout links already send buyers to thanks.html after payment (redirect_url parameter); no Dodo dashboard setting needed.
+
+Already filled: Edge Add-ons link, name, support email, 7-day refund window, both Dodo checkout links, installer download link.
